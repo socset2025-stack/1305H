@@ -1,0 +1,10 @@
+baseURL = "https://your-site.pages.dev"
+languageCode = "uk-ua"
+title = "Мій супер сайт"
+defaultContentLanguage = "uk"
+
+[pagination]
+pagerSize = 10
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

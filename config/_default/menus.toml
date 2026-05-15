@@ -1,0 +1,14 @@
+[[main]]
+name = "Головна"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Статті"
+url = "/posts/"
+weight = 2
+
+[[main]]
+name = "Про мене"
+url = "/about/"
+weight = 3

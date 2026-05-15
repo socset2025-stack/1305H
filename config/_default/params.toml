@@ -1,0 +1,25 @@
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+description = "Мій персональний сайт"
+
+[author]
+name = "Ваше Ім'я"
+
+[homepage]
+layout = "page"
+showRecent = true
+recentLimit = 5
+
+[article]
+showDate = true
+showAuthor = true
+showReadingTime = true
+showTableOfContents = true
+
+[header]
+layout = "basic"
+
+[footer]
+showCopyright = true
+showPoweredBy = true
