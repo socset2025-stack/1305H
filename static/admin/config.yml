@@ -2,7 +2,6 @@ backend:
   name: github
   repo: socset2025/1305H
   branch: main
-  # Используем официальный бесплатный шлюз Sveltia для авторизации по токену
   auth_endpoint: https://sveltia.com
 
 media_folder: "static/images"
