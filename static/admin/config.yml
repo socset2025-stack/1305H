@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: socset2025/1305H
+  branch: main
+  # Используем официальный бесплатный шлюз Sveltia для авторизации по токену
+  auth_endpoint: https://sveltia.com
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Статті"
+    folder: "content/posts"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    fields:
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Дата", name: "date", widget: "datetime"}
+      - {label: "Опубліковано", name: "draft", widget: "boolean", default: false}
+      - {label: "Опис", name: "description", widget: "string", required: false}
+      - {label: "Теги", name: "tags", widget: "list", required: false}
+      - {label: "Текст статті", name: "body", widget: "markdown"}
